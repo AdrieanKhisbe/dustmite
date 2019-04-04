@@ -24,17 +24,17 @@
 	},
 	"dependencies": {
 		"dustjs-linkedin": "~2.7",
-		"glob": "~6.0",
-		"yargs": "~3.31"
+		"glob": "~7.1",
+		"yargs": "~13.2"
 	},
 	"devDependencies": {
 		"istanbul": "~0.4",
 		"jscs": "^3",
 		"jshint": "^2",
-		"mocha": "^3",
-		"mockery": "~1.4",
+		"mocha": "^6",
+		"mockery": "~2.1",
 		"proclaim": "^3",
-		"sinon": "^1"
+		"sinon": "^7"
 	},
 	"bin": {
 		"dustmite": "./bin/cli.js"
