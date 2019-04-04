@@ -2,10 +2,10 @@
 
 Dustmite is a linter for [DustJS](https://github.com/linkedin/dustjs). It checks the syntax of your dust templates and then validates them against a configurable and extensible set of rules. The dust parsing is heavily inspired by [Swiffer.js](https://github.com/smfoote/Swiffer.js).
 
-[![LGPL-3.0 licensed][shield-license]][info-license]
-[![Node.js version support][shield-node]][info-node]
 [![NPM version][shield-npm]][info-npm]
+[![Node.js version support][shield-node]][info-node]
 [![Build status][shield-build]][info-build]
+[![LGPL-3.0 licensed][shield-license]][info-license]
 
 ![Susuwatari](https://38.media.tumblr.com/tumblr_mbt6bsseX31rn213no1_500.gif)
 
