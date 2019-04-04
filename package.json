@@ -20,7 +20,7 @@
 	"homepage": "https://github.com/springernature/dustmite",
 	"bugs": "https://github.com/springernature/dustmite/issues",
 	"engines": {
-		"node": ">=0.10"
+		"node": ">=6.10"
 	},
 	"dependencies": {
 		"dustjs-linkedin": "~2.7",
