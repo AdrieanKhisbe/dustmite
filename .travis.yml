@@ -9,13 +9,7 @@ node_js:
 - '8'
 - '10'
 
-# Restrict builds on branches
-branches:
-  only:
-    - master
-    - /^\d+\.\d+\.\d+$/
-
 # Build script
 script:
-  - 'if [ $LINT ]; then make lint; fi'
-  - 'if [ ! $LINT ]; then make lcov-levels; fi'
+  - make lint
+  - make lcov-levels
