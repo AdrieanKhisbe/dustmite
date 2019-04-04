@@ -2,22 +2,23 @@
 	"name": "dustmite",
 	"version": "2.0.4",
 	"license": "LGPL-3.0",
-
 	"description": "Linting for dustjs templates",
-	"keywords": ["dust", "templates", "lint", "test"],
-
+	"keywords": [
+		"dust",
+		"templates",
+		"lint",
+		"test"
+	],
 	"author": "Springer Nature",
 	"contributors": [
 		"Andrew Walker (http://www.moddular.org/)"
 	],
-
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/springernature/dustmite.git"
 	},
 	"homepage": "https://github.com/springernature/dustmite",
 	"bugs": "https://github.com/springernature/dustmite/issues",
-
 	"engines": {
 		"node": ">=0.10"
 	},
@@ -39,7 +40,6 @@
 		"dustmite": "./bin/cli.js"
 	},
 	"main": "./lib/dustmite.js",
-
 	"scripts": {
 		"test": "make test"
 	}
