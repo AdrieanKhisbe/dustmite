@@ -23,9 +23,7 @@ var args = yargs.options('r', {
 	r: 'Path to a Javascript file exporting custom rule definitions',
 	p: 'Path to lint. Can be an individual file or a directory that will be searched recursively for files with an extension matching the --extensions option',
 	e: 'File extensions to use when linting a directory. Separate multiple extensions with a | character'
-}).alias('h', 'help').help('help').alias('v', 'version').version(function() {
-	return require('../package').version;
-}).argv;
+}).alias('h', 'help').help('help').alias('v', 'version').argv;
 
 var validator = new Validator(cli.getFiles(args), cli.getRules(args));
 var status = validator.run();
